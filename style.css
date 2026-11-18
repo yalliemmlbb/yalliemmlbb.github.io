@@ -52,13 +52,13 @@ body::after {
 .profile-pic-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-bottom: 15px;
 }
 
 .profile-pic {
-    width: 85px;
-    height: 85px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #ffffff;
