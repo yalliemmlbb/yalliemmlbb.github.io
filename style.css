@@ -9,10 +9,10 @@ html, body {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-color: #000000;
+    background: transparent;
 }
 
-/* Pengaturan khusus video latar belakang agar memenuhi layar penuh */
+/* Pengaturan video latar belakang agar tampil terang dan menutupi layar penuh */
 .bg-video {
     position: fixed;
     top: 0;
@@ -20,10 +20,10 @@ html, body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    z-index: -1;
+    z-index: -2;
 }
 
-/* Lapisan gelap tipis 0.45 di atas video agar animasi grid tetap elegan */
+/* Lapisan gelap 0.45 yang pas di atas video */
 body::after {
     content: "";
     position: fixed;
