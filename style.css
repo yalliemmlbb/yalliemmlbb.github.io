@@ -8,9 +8,10 @@ body {
     min-height: 100vh;
     background-color: #000000;
     overflow-x: hidden;
+    position: relative;
 }
 
-/* Pengaturan khusus video latar belakang agar pas menutupi layar */
+/* Pengaturan khusus video latar belakang */
 .bg-video {
     position: fixed;
     top: 0;
@@ -21,3 +22,15 @@ body {
     z-index: -1;
 }
 
+/* Lapisan gelap tipis di atas video (bisa diatur kepekatannya) */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.35); /* Angka 0.35 adalah tingkat gelapnya (bisa dinaikkan jadi 0.5 jika ingin lebih gelap) */
+    z-index: -1;
+    pointer-events: none;
+}
