@@ -1,18 +1,15 @@
-html, body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #000000;
-    position: relative;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
 }
 
 /* Pengaturan khusus video latar belakang agar memenuhi layar penuh */
@@ -26,7 +23,7 @@ html, body {
     z-index: -1;
 }
 
-/* Lapisan gelap tipis 0.45 di atas video */
+/* Lapisan gelap tipis 0.45 di atas video agar animasi grid tetap elegan */
 body::after {
     content: "";
     position: fixed;
@@ -45,13 +42,13 @@ body::after {
     height: 100vh;
     max-width: 480px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Perbaikan foto profil agar bulat rapi di tengah atas */
+/* Foto profil bulat berbingkai putih di tengah atas */
 .profile-pic-wrapper {
     display: flex;
     justify-content: center;
