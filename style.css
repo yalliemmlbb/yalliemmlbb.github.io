@@ -30,7 +30,7 @@ body::after {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.35); /* Angka 0.35 adalah tingkat gelapnya (bisa dinaikkan jadi 0.5 jika ingin lebih gelap) */
+    background-color: rgba(0, 0, 0, 0.45); /* Angka 0.35 adalah tingkat gelapnya (bisa dinaikkan jadi 0.5 jika ingin lebih gelap) */
     z-index: -1;
     pointer-events: none;
 }
