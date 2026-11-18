@@ -6,9 +6,18 @@
 
 body {
     min-height: 100vh;
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #000000;
+    overflow-x: hidden;
 }
+
+/* Pengaturan khusus video latar belakang agar pas menutupi layar */
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
