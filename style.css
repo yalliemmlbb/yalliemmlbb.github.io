@@ -9,6 +9,8 @@ body {
     background-color: #000000;
     overflow-x: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 /* Pengaturan khusus video latar belakang */
@@ -22,7 +24,7 @@ body {
     z-index: -1;
 }
 
-/* Lapisan gelap tipis di atas video (bisa diatur kepekatannya) */
+/* Lapisan gelap tipis 0.45 di atas video */
 body::after {
     content: "";
     position: fixed;
@@ -30,7 +32,33 @@ body::after {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.45); /* Angka 0.35 adalah tingkat gelapnya (bisa dinaikkan jadi 0.5 jika ingin lebih gelap) */
+    background-color: rgba(0, 0, 0, 0.45);
     z-index: -1;
     pointer-events: none;
 }
+
+/* Wadah utama agar konten berada di tengah dengan lebar pas untuk HP */
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 50px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Pengaturan Foto Profil Bulat & Border Putih */
+.profile-pic-wrapper {
+    margin-bottom: 16px;
+}
+
+.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
