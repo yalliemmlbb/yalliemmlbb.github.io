@@ -70,3 +70,37 @@ body::after {
     text-align: center;
     margin-top: -5px;
 }
+
+.stats-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 10px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-count {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-label {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+.stat-divider {
+    width: 1px;
+    height: 22px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
