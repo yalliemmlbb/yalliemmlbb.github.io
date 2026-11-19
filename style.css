@@ -49,7 +49,7 @@ body::after {
 .profile-pic-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 85px;
     margin-bottom: 15px;
 }
 
@@ -64,8 +64,8 @@ body::after {
 
 .profile-name {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 970;
+    font-size: 18px;
+    font-weight: 980;
     letter-spacing: 0.1px;
     text-align: center;
     margin-top: -5px;
