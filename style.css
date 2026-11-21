@@ -139,13 +139,19 @@ body::after {
     transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
+.social-btn:focus,
+.social-btn:active {
+    outline: none;
+    background-color: #ffffff;
+}
+
 .social-btn:active {
     transform: scale(0.92);
     opacity: 0.88;
 }
 
 .social-btn svg {
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 20px;
     fill: currentColor;
 }
