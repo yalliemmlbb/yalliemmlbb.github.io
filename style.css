@@ -157,24 +157,23 @@ body::after {
     fill: currentColor;
 }
 
-/* Pengaturan khusus masing-masing icon */
+/* Pengaturan terpisah per icon */
 .icon-fb svg {
-    width: 21px;
-    height: 21px;
-}
-
-.icon-wa svg {
-    width: 22px;
-    height: 22px;
-}
-
-.icon-dc svg {
-    width: 22px;
-    height: 22px;
-}
-
-.icon-email svg {
     width: 18px;
     height: 18px;
 }
 
+.icon-wa svg {
+    width: 17px;
+    height: 17px;
+}
+
+.icon-dc svg {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-email svg {
+    width: 16px;
+    height: 16px;
+}
