@@ -115,3 +115,36 @@ body::after {
     margin-top: 8px;
     max-width: 360px;
 }
+
+.social-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.social-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #1c1c1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.social-btn:active {
+    transform: scale(0.92);
+    opacity: 0.88;
+}
+
+.social-btn svg {
+    width: 17px;
+    height: 17px;
+    fill: currentColor;
+}
