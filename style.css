@@ -126,26 +126,25 @@ body::after {
 }
 
 .social-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    color: #1c1c1e;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
     text-decoration: none;
     outline: none;
     user-select: none;
     -webkit-user-select: none;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
     transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
 .social-btn:focus,
 .social-btn:active {
     outline: none;
-    background-color: #ffffff;
+    background: none;
 }
 
 .social-btn:active {
@@ -153,27 +152,10 @@ body::after {
     opacity: 0.88;
 }
 
-.social-btn svg {
-    fill: currentColor;
-}
-
-/* Pengaturan terpisah per icon */
-.icon-fb svg {
-    width: 18px;
-    height: 18px;
-}
-
-.icon-wa svg {
-    width: 17px;
-    height: 17px;
-}
-
-.icon-dc svg {
-    width: 18px;
-    height: 18px;
-}
-
-.icon-email svg {
-    width: 16px;
-    height: 16px;
+.social-btn img,
+.social-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
 }
