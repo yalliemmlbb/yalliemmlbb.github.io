@@ -161,26 +161,26 @@ body::after {
 
 /* Pengaturan terpisah per icon */
 .icon-fb {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     transform: translate(0px, 0px);
 }
 
 .icon-wa {
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
     transform: translate(0px, 0px);
 }
 
 .icon-dc {
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
     transform: translate(0px, 0px);
 }
 
 .icon-email {
-    width: 34px;
-    height: 34px;
+    width: 38px;
+    height: 38px;
     transform: translate(0px, 0px);
 }
 
