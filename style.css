@@ -161,8 +161,8 @@ body::after {
 
 /* Pengaturan terpisah per icon */
 .icon-fb {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     transform: translate(0px, 0px);
 }
 
