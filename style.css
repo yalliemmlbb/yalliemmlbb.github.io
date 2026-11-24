@@ -55,8 +55,8 @@ body::after {
 }
 
 .profile-pic {
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #ffffff;
@@ -89,15 +89,15 @@ body::after {
 
 .stat-count {
     color: #ffffff;
-    font-size: 10.5px;
-    font-weight: 650;
+    font-size: 11px;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 .stat-label {
     color: rgba(255, 255, 255, 0.85);
-    font-size: 10.5px;
-    font-weight: 350;
+    font-size: 11px;
+    font-weight: 450;
 }
 
 .stat-dot {
@@ -110,7 +110,7 @@ body::after {
 .profile-bio {
     color: rgba(255, 255, 255, 0.88);
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.45;
     text-align: center;
     margin-top: 8px;
@@ -121,7 +121,7 @@ body::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     margin-top: 14px;
 }
 
