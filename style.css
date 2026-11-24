@@ -175,7 +175,7 @@ body::after {
 .icon-dc {
     width: 48.5px;
     height: 48.5px;
-    transform: translate(0px, 0px);
+    transform: translate(-2px, 0px);
 }
 
 .icon-email {
