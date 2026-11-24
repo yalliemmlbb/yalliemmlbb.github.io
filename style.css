@@ -50,7 +50,7 @@ body::after {
 .profile-pic-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-bottom: 15px;
 }
 
