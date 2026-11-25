@@ -97,7 +97,7 @@ body::after {
 .stat-label {
     color: rgba(255, 255, 255, 0.85);
     font-size: 11px;
-    font-weight: 450;
+    font-weight: 425;
 }
 
 .stat-dot {
@@ -108,7 +108,7 @@ body::after {
 }
 
 .profile-bio {
-    color: rgba(255, 255, 255, 0.88);
+    color: #ffffff;
     font-size: 11px;
     font-weight: 500;
     line-height: 1.45;
@@ -122,7 +122,7 @@ body::after {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    margin-top: 14px;
+    margin-top: 5px;
 }
 
 .social-btn {
