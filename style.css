@@ -121,7 +121,7 @@ body::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 5.5px;
     margin-top: 5px;
 }
 
